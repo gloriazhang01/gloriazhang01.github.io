@@ -1,0 +1,589 @@
+@media (min-width:498px)and (max-width:1000px){
+    body{
+        width:498px;
+        height:auto;
+        margin:0;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:10px;
+    }
+    a{
+        text-decoration: none;
+        color:#D9A9FF;
+    }
+    button{
+        border:none;
+        display:inline;
+    }
+    .ham{
+        grid-column:1/2;
+        position: relative;
+        left:10px;
+        top:5px;
+
+    }
+    .mid2{
+        display:none;
+    }
+    .logo{
+        display:none;
+    }
+    .alarm{
+        display:none;
+    }
+    header{
+        display:grid;
+        padding-bottom: 5px;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .oops{
+        display:none;
+    }
+    .menu{
+        grid-column:1/2;
+        position: relative;
+        left:-13px;
+        display:none;
+    }
+    .schedule{
+        display:none;
+    }
+    .account{
+        display:none;
+    }
+    .logosmall{
+        grid-column: 2/-3;
+        margin:0 auto;
+    }
+    #strip{
+        width:498px;
+        background-color: #D9A9FF;
+        height:10px;
+    }
+    #note{
+        font-family: 'Lato', sans-serif;
+        color:#D9A9FF;
+        font-size:15px;
+        text-align: center;
+        padding:20px;
+        line-height: 1.3em;
+    }
+    span{
+        text-decoration: underline;
+    }
+    #subtitle{
+        font-family: 'Lato', sans-serif;
+        color:#D9A9FF;
+        font-size:12px;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top:20px;
+    }
+    p{
+        padding:0px;
+        margin:0px;
+    }
+    #eventtitle{
+        position: relative;
+        left:65%;
+        opacity:0.3;
+        width:80px;
+        height:30px;
+    }
+    #eventtitle:hover{
+        opacity:1;
+    }
+    #mag2{
+        display:none;
+    }
+    #class{
+        width:150px;
+        height:30px;
+    }
+    .workshop{
+        font-family: 'Lato', sans-serif; 
+    }
+    .submenu{
+        display:none;
+    }
+    .date{
+        font-size:15px;
+        padding-top:20px;
+    }
+    .box{
+        display:flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: flex-start;
+        padding-top:10px;
+    }
+    .name{
+        font-size:20px;
+        color:#D9A9FF;
+        font-weight: bold;
+        width:400px;
+    }
+    
+    .plus{
+        width:25px;
+        height:25px;
+        background-image: url(icon/plus.png);
+        background-size: contain;
+        position: relative;
+        left:-10px;
+    }
+    .teacher{
+        font-size:10px;
+        color:#D9A9FF;
+        opacity:.5;
+        padding-top:5px;
+    }
+    #foot{
+        height:40px;
+        background-color:#D9A9FF;
+        margin-top:50px;
+        margin-bottom: 0;
+    }
+    #intro{
+        font-family: 'Lato', sans-serif;
+        color:black;
+        opacity:0.5;
+        text-align: center;
+        font-size: 10px;
+        line-height: 1.6;
+    }
+    .law{
+        display:inline;
+        font-family: 'Lato', sans-serif;
+        color:black;
+        opacity:0.5;
+        text-align:right;
+    }
+    .about{
+        display:none;
+    }
+    .workshop2{
+        display:none;
+    }
+    .awards{
+        display:none;
+    }
+    #privacy{
+        margin-left:170px;
+        text-decoration: underline;
+
+    }
+    #cookie{
+        margin-left:10px;
+        text-decoration: underline;
+    }
+    footer{
+        position: relative;
+        top:100px;
+    }
+}
+@media (min-width:1000px) and (max-width:1300px){
+    body{
+        font-family: 'Lato', sans-serif;
+        padding:20px;
+        padding-right:20px;
+    }
+    .oops{
+        display:none;
+    }
+    .logosmall{
+        display:none;
+    }
+    #subtitle{
+        display:none;
+    }
+    .ham{
+        display:none;
+    }
+    #strip{
+        display:none;
+    }
+    #note{
+        display:none;
+    }
+    #top{
+        display:none;
+    }
+    #mag1{
+        display:none;
+    }
+    .menu2{
+        display:none;
+    }
+    .menu1{
+        opacity:0.5;
+    }
+    #classmenu{
+        opacity:1;
+    }
+    #acc2{
+        display:none;
+    }
+    .mid2{
+        width:100vw;
+
+    }
+    .submenu{
+        margin-top:40px;
+        display:flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    .classschedule{
+        font-size:30px;
+        font-weight:300;
+        color:#D9A9FF;
+        
+    }
+    .upcoming{
+        font-size:18px;
+        font-weight: 300;
+        color:#D9A9FF;
+        margin-left: 20px;
+        margin-top:25px;
+    }
+    .plus{
+        width:25px;
+        height:25px;
+        background-image: url(icon/plus.png);
+        background-size: contain;
+        position: relative;
+        left:-10px;
+    }
+    .alarm{
+        display:show;
+        font-family: 'Lato', sans-serif;
+        color:#D9A9FF; 
+        animation:blink 1.5s linear 1s infinite;
+    }
+    header{
+        display:grid;
+        grid-template-columns:250px 120px auto 50px 120px 120px ;
+        align-items: center;
+    }
+    .ham{
+        display:none;
+    }
+    .alarm{
+        grid-column: 2/3;
+        font-size: 15px;
+        font-weight:bold;
+        font-style: italic;
+        text-decoration: underline;
+    }
+    .menu1{
+        display:show;
+        float: left;
+        margin-left:20px;
+        font-size:18px;
+        font-weight: bold;
+        color:#D9A9FF;
+    }
+    ul{
+        list-style:none;
+    }
+    .schedule{
+        font-size:15px;
+        font-weight: bold;
+        color:#D9A9FF; 
+    }
+    .account{
+        font-size:15px;
+        font-weight: bold;
+        color:#D9A9FF; 
+    }
+    .icon{
+        position: relative;
+        margin-top:-15px;
+        margin-left:25px;
+    }
+    .img{
+        position: relative;
+        top:8px;
+    }
+    .mid1{
+       display:none;
+    }
+    .mid2{
+        margin-top:-50px;
+    }
+    main{
+        box-sizing: border-box;
+        padding-top:55px;
+    }
+    .workshop{
+       display:none;
+    }
+    .workshop2{
+        font-family: 'Lato', sans-serif;
+    }
+    .studio{
+        display:grid;
+        grid-template-columns: 1fr 300px 1fr;
+        column-gap: 100px;
+        justify-content:space-between ;
+    }
+    .name{
+        color:#D9A9FF; 
+        font-size:30px;
+        font-weight: bold;
+    }
+    .teacher{
+        color:#D9A9FF; 
+        font-size:20px;
+        opacity:.5;
+        margin-top:5px;
+    }
+    .text{
+        font-size:15px;
+        opacity:.5;
+        margin-top:20px;
+        margin-bottom: 40px;
+        width:300px;
+        line-height: 1.4em;
+    }
+    .date{
+        color:#D9A9FF; 
+        font-size:16px;
+        line-height: 1.5em;
+        margin-top:-1px;
+    }
+    .add{
+        color:#D9A9FF; 
+        font-size:16px;
+        margin-top:-1px; 
+        text-decoration: underline;
+        text-align: right;
+    }
+    footer{
+        display:grid;
+        grid-template-columns: 350px 1fr 1fr;
+        column-gap: 100px;
+        text-align: center;
+        margin-top:200px;
+    }
+    .address{
+        display:grid;
+        opacity:.5;
+    }
+    .intro{
+        grid-row: 2/3;
+    }
+    .awards{
+        margin:30px;
+    }
+    .about{
+        opacity:.5;
+    }
+    .law{
+        display:none;
+    }
+    .oops{
+        display:none;
+    }
+    @keyframes blink{
+        0%{
+            opacity:0;
+        }
+        25%{
+            opacity:1;
+        }
+        50%{
+            opacity:1;
+        }
+        75%{
+            opacity:1;
+        }
+        100%{
+            opacity:0;
+        }
+    }
+}
+@media (min-width:1300px) and (max-width:3000px){
+    header{
+        display:grid;
+        text-align: center;
+    }
+   .oops{
+    font-family: 'Lato', sans-serif;
+    color:#D9A9FF;
+    font-size:20px;
+    font-style:italic;
+    }
+    #mag2{
+        display:none;
+    }
+    #mag1{
+        display:none;
+    }
+    #acc2{
+        display:none;
+    }
+    a{
+        text-decoration: none;
+        color:#D9A9FF;
+        display:none;
+    }
+    button{
+        border:none;
+        display:none;
+    }
+    .ham{
+        grid-column:1/2;
+        position: relative;
+        left:10px;
+        top:5px;
+        display:none;
+
+    }
+    .mid2{
+        display:none;
+    }
+    .logo{
+        display:none;
+    }
+    .alarm{
+        display:none;
+    }
+    .menu{
+        grid-column:1/2;
+        position: relative;
+        left:-13px;
+        display:none;
+    }
+    .schedule{
+        display:none;
+    }
+    .account{
+        display:none;
+    }
+    .logosmall{
+        grid-column: 2/-3;
+        margin:0 auto;
+        display:none;
+    }
+    #strip{
+        width:498px;
+        background-color: #D9A9FF;
+        height:10px;
+        display:none;
+    }
+    #note{
+        font-family: 'Lato', sans-serif;
+        color:#D9A9FF;
+        font-size:15px;
+        text-align: center;
+        padding:15px;
+        display:none;
+    }
+    span{
+        text-decoration: underline;
+        display:none;
+    }
+    #subtitle{
+        font-family: 'Lato', sans-serif;
+        color:#D9A9FF;
+        font-size:12px;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top:20px;
+        display:none;
+    }
+    p{
+        padding:0px;
+        margin:0px;
+    }
+    #eventtitle{
+        position: relative;
+        left:65%;
+        opacity:0.3;
+        width:80px;
+        height:30px;
+        display:none;
+    }
+    #eventtitle:hover{
+        opacity:1;
+        display:none;
+    }
+    #class{
+        width:150px;
+        height:30px;
+        display:none;
+    }
+    .workshop{
+        font-family: 'Lato', sans-serif; 
+        display:none;
+    }
+    .submenu{
+        display:none;
+    }
+    .date{
+        font-size:15px;
+        padding-top:20px;
+        display:none;
+    }
+    .box{
+        display:flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: flex-start;
+        padding-top:10px;
+        display:none;
+    }
+    .name{
+        font-size:20px;
+        color:#D9A9FF;
+        font-weight: bold;
+        width:400px;
+        display:none;
+    }
+    
+    .plus{
+        width:25px;
+        height:25px;
+        background-image: url(icon/plus.png);
+        background-size: contain;
+        position: relative;
+        left:-10px;
+        display:none;
+    }
+    .teacher{
+        display:none;
+    }
+    #foot{
+        display:none;
+    }
+    #top{
+        display:none;
+    }
+    #intro{
+        display:none;
+    }
+    .law{
+        display:none;
+    }
+    .about{
+        display:none;
+    }
+    .workshop2{
+        display:none;
+    }
+    .awards{
+        display:none;
+    }
+    #privacy{
+        display:none;
+
+    }
+    #cookie{
+        display:none;
+    }
+    footer{
+        display:none;
+    }
+}
